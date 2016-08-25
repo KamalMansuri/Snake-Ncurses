@@ -14,7 +14,6 @@ char *f_choices[] = {
 
 int main(int argc, char *argv[]) {
   ITEM **f_items;
-  // ITEM cur;
   int c;
   MENU *main_menu;
   int n_choices, i;

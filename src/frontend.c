@@ -115,7 +115,7 @@ void playGame(enum Option option, WINDOW *main_window) {
   enum Status status = GAME_ON;
 
   while(status == GAME_ON) {
-    wclear(game_win);
+    werase(game_win);
 
     /* Print info about game above the arena */
     switch(option) {
